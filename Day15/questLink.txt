@@ -1,0 +1,51 @@
+//Assigment for 27 and 28 july-2024
+
+   ------------Array------------------------
+https://www.codingninjas.com/codestudio/problems/two-sum_839653
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+https://www.codingninjas.com/codestudio/problems/ninja-and-sorted-arrays_1214628
+https://www.codingninjas.com/codestudio/problems/pascal-s-triangle_1089580
+https://www.codingninjas.com/codestudio/problems/stocks-are-profitable_893405
+https://www.codingninjas.com/codestudio/problems/occurs-once_1214969
+https://leetcode.com/problems/contains-duplicate/
+https://www.codingninjas.com/codestudio/problems/majority-element_842495
+https://www.codingninjas.com/codestudio/problems/duplicate-in-array_893397
+https://www.codingninjas.com/codestudio/problems/move-zeros-to-left_1094877
+--------------on Matrix
+
+https://leetcode.com/problems/richest-customer-wealth/
+https://leetcode.com/problems/matrix-diagonal-sum/
+https://leetcode.com/problems/flipping-an-image/
+https://www.codingninjas.com/codestudio/problems/total-negative-numbers-in-a-sorted-matrix_3161878
+https://leetcode.com/problems/lucky-numbers-in-a-matrix/
+https://leetcode.com/problems/reshape-the-matrix/
+https://www.codingninjas.com/codestudio/problems/buildings-projection_1466964
+https://leetcode.com/problems/available-captures-for-rook/
+https://leetcode.com/problems/toeplitz-matrix/
+https://leetcode.com/problems/special-positions-in-a-binary-matrix/
+
+----------------Linkedlist-------------------------
+	https://www.codingninjas.com/codestudio/problems/delete-node-in-ll_5881
+	https://www.codingninjas.com/codestudio/problems/middle-of-linked-list_973250
+	https://www.codingninjas.com/codestudio/problems/binary-to-integer_2421938
+	https://www.codingninjas.com/codestudio/problems/remove-duplicates-from-unsorted-linked-list_1069331
+	https://www.codingninjas.com/codestudio/problems/merge-two-sorted-linked-lists_800332
+	https://www.codingninjas.com/codestudio/problem-details/cycle-detection-in-a-singly-linked-list_628974
+	https://www.codingninjas.com/codestudio/problems/intersection-of-linked-list_630457
+	https://www.codingninjas.com/codestudio/problems/palindrom-linked-list_799352?leftPanelTab=0
+	https://www.codingninjas.com/codestudio/problems/remove-all-nodes-with-value-k_1262145
+	https://www.codingninjas.com/codestudio/problems/browser_2427908
+-------------Leetcode problem on linked list-----------
+problem number-
+1334
+141
+206
+234
+817
+707
+92
+142
+203
+328
+725
+876
