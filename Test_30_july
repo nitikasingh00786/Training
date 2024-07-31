@@ -1,0 +1,119 @@
+Q1. House Robber   (https://leetcode.com/problems/house-robber/description/)
+SOLUTION: class Solution {
+ public:
+ int rob(vector<int>& nums) {
+  if (nums.empty())
+   return 0;
+  if (nums.size() == 1)
+   return nums[0];
+  // dp[i] := the maximum money of robbing nums[0..i]
+  vector<int> dp(nums.size());
+  dp[0] = nums[0];
+  dp[1] = max(nums[0], nums[1]);
+  for (int i = 2; i < nums.size(); ++i)
+   dp[i] = max(dp[i - 1], dp[i - 2] + nums[i]);
+  return dp.back();
+ }
+};
+
+Q2. Flipping an Image    (https://leetcode.com/problems/flipping-an-image/description/)
+SOLUTION :class Solution {
+public:
+  vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {
+    for (auto& row : image) {
+      reverse(row.begin(), row.end());
+      for (auto& pixel : row) {
+        pixel = 1 - pixel;
+      }
+    }
+    return image;
+  }
+};
+
+Q3. Search a 2D Matrix  (https://leetcode.com/problems/search-a-2d-matrix/description/)
+SOLUTION:  class Solution {
+public:
+  bool searchMatrix(vector<vector<int>>& matrix, int target) {
+    int row = 0, col = matrix[0].size() - 1;
+    while (row < matrix.size() && col >= 0) {
+      int current = matrix[row][col];
+      if (current == target) {
+        return true;
+      }
+      if (current < target) {
+        row++;
+      } else {
+        col--;
+      }
+    }
+    return false;
+  }
+};
+
+Q4. Jewels and Stones (https://leetcode.com/problems/jewels-and-stones/description/)
+SOLUTION:    class Solution {
+public:
+    int numJewelsInStones(string jewels, string stones) {
+        int count = 0;
+        for (int i = 0; i < jewels.length(); i++)
+        {
+            for (int j = 0; j < stones.length(); j++)
+            {
+                if (jewels[i] == stones[j]) count++;
+            }
+        }
+        return count;
+    }
+};
+
+Q5. Reverse the String  (https://www.naukri.com/code360/problems/reverse-the-string_799927)
+SOLUTION:  #include <bits/stdc++.h> 
+string reverseString(string str)
+{
+	// Write your code here.
+	int n=str.size();
+	string r;
+	for(int i=n-1;i>=0;i--){
+		r+=str[i];
+	}
+	return r;
+}
+
+Q6. Sorting the Sentence  (https://leetcode.com/problems/sorting-the-sentence/description/)
+SOLUTION: class Solution {
+public:
+    string sortSentence(string s) {
+        
+        string ans = "";
+        for(int i = 1; i <= 9; i++)
+        {
+            if(s.find(to_string(i)) == string::npos) break;
+
+            int end = s.find(to_string(i));
+            cout << "end " << end << endl;
+            int start = end;
+            while(start >= 0 and s[start] != ' ') start--;
+
+            if(start < 0) start = 0;
+            int l = end - start;
+            string temp = s.substr(start,l);
+            cout << temp << endl;
+            ans += temp;
+            ans.push_back(' ');
+        }
+        cout << ans << endl;
+        ans.erase(ans.length()-1,1);
+
+        if(ans[0] == ' ') ans.erase(0,1);
+
+        while(ans.find("  ") != string::npos)
+        {
+            int idx = ans.find("  ");
+            ans.erase(idx,1);
+        }
+        return ans;
+    }
+};
+
+
+
